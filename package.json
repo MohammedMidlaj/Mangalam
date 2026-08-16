@@ -1,0 +1,13 @@
+{
+  "name": "mangalam",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev": "pnpm --parallel --stream dev",
+    "dev:web": "pnpm --filter @mangalam/web dev",
+    "dev:api": "pnpm --filter @mangalam/api dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
