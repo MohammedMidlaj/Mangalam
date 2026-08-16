@@ -11,7 +11,7 @@ Mangalam is a mobile-first wedding invitation SaaS for Kerala/India. It uses one
 
 1. Install dependencies with `pnpm install`.
 2. Start both apps with `pnpm dev`.
-3. Visit `http://localhost:3000` and open the seeded invitation at `http://localhost:3000/azad-shazna`.
+3. Visit `http://localhost:3000` and open the seeded invitation at `http://localhost:3000/arun-nila`.
 
 The API runs at `http://localhost:3001` by default. Set `NEXT_PUBLIC_API_URL` in `apps/web/.env.local` if it runs elsewhere.
 

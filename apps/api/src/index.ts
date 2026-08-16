@@ -20,6 +20,7 @@ const draftSchema = z.object({
   slug: slugSchema,
   templateId: z.string().min(1),
   couple: z.object({ groom: z.string().min(1), bride: z.string().min(1) }),
+  nameOrder: z.enum(["groom_first", "bride_first"]),
   message: z.string().min(1).max(500),
   status: z.enum(["draft", "pending_payment"] satisfies InvitationStatus[]),
 });

@@ -6,6 +6,8 @@ export type InvitationStatus =
   | "unpublished"
   | "suspended";
 
+export type NameOrder = "groom_first" | "bride_first";
+
 export type WeddingEvent = {
   id: string;
   title: string;
@@ -22,6 +24,7 @@ export type Invitation = {
   slug: string;
   templateId: string;
   status: InvitationStatus;
+  nameOrder: NameOrder;
   expiresAt: string;
   couple: { groom: string; bride: string };
   family: { groomParents: string; brideParents: string };

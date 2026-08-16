@@ -1,0 +1,25 @@
+.orderToggle {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.orderToggle button {
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0.6rem 0.8rem;
+}
+
+.orderToggle button.selected {
+  background: var(--deep);
+  border-color: var(--deep);
+  color: #fff;
+}
+
+.fieldNote {
+  color: var(--muted);
+  font-size: 0.8rem;
+  margin: 0.65rem 0 0;
+}

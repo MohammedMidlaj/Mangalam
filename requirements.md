@@ -6,7 +6,7 @@
 
 Build a mobile-first SaaS platform that lets customers create, pay for, and publish a personalised wedding invitation website without design or technical skills.
 
-Every invitation is stored as structured data and rendered by one shared application. A customer receives a shareable URL such as `appdomain.in/azad-shazna`; the platform does not create a separate deployment per wedding.
+Every invitation is stored as structured data and rendered by one shared application. A customer receives a shareable URL such as `appdomain.in/your-invitation`; the platform does not create a separate deployment per wedding.
 
 The initial market is Kerala/India, with support for local wedding formats, WhatsApp sharing, multilingual invitations, INR payments, and culturally relevant templates.
 
@@ -263,5 +263,4 @@ External dependencies include a hosting/CDN provider, database, object storage, 
 ## 16. Acceptance criteria
 
 The MVP is acceptable when a new user can create an account, select a template, enter wedding details, upload photos, save a draft, preview it on mobile, and choose an available slug. A verified payment activates publication; the public URL renders the correct data/template from shared infrastructure without a customer-specific deployment. Guests can view event details and open directions. Customer data remains isolated by owner, media is validated and optimised, invitations expire gracefully, administrators can manage invitation states, and payment/publication/renewal/admin actions are logged.
-
 

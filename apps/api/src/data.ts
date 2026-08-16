@@ -29,37 +29,38 @@ export const templates: Template[] = [
 
 export const invitations: Invitation[] = [
   {
-    id: "inv_azad_shazna",
+    id: "inv_arun_nila",
     ownerId: "usr_demo",
-    slug: "azad-shazna",
+    slug: "arun-nila",
     templateId: "kerala-gold",
     status: "published",
+    nameOrder: "groom_first",
     expiresAt: "2027-12-31T23:59:59.000Z",
-    couple: { groom: "Azad", bride: "Shazna" },
+    couple: { groom: "Arun", bride: "Nila" },
     family: {
-      groomParents: "Abdul Rahman & Fathima",
-      brideParents: "Shamsudeen & Naseema",
+      groomParents: "Rajesh & Kavitha",
+      brideParents: "Suresh & Anitha",
     },
     message:
-      "With the blessings of our families, we warmly invite you to celebrate the beginning of our new chapter.",
+      "With the blessings of our families, we warmly invite you to celebrate the beginning of a new chapter.",
     events: [
       {
         id: "evt_nikah",
         title: "Nikah",
-        date: "2026-12-18",
+        date: "2027-02-14",
         time: "11:30 AM",
-        venue: "Grand Masjid Hall",
-        address: "Kozhikode, Kerala",
-        mapUrl: "https://maps.google.com/?q=Kozhikode,Kerala",
+        venue: "Lakeside Celebration Hall",
+        address: "Kochi, Kerala",
+        mapUrl: "https://maps.google.com/?q=Kochi,Kerala",
       },
       {
         id: "evt_reception",
         title: "Reception",
-        date: "2026-12-20",
+        date: "2027-02-16",
         time: "7:00 PM",
-        venue: "The Leela Convention Centre",
-        address: "Kozhikode, Kerala",
-        mapUrl: "https://maps.google.com/?q=Kozhikode,Kerala",
+        venue: "Lakeside Celebration Hall",
+        address: "Kochi, Kerala",
+        mapUrl: "https://maps.google.com/?q=Kochi,Kerala",
       },
     ],
     heroImage:
